@@ -25,6 +25,11 @@ const questions = [
   },
   {
     type: `input`,
+    message: `What license are you using for your project?`,
+    name: `license`,
+  },
+  {
+    type: `input`,
     message: `What are the contribution guidelines for your project?`,
     name: `contribution`,
   },
@@ -32,11 +37,6 @@ const questions = [
     type: `input`,
     message: `What are the testing instructions for your project?`,
     name: `testing`,
-  },
-  {
-    type: `input`,
-    message: `What license are you using for your project?`,
-    name: `license`,
   },
   {
     type: `input`,
@@ -51,12 +51,17 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, generate.generateMarkdown(data), (err) =>
+    err ? console.log(`Please try again.`) : console.log(`Success!`)
+  );
+}
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((response) => {
-    console.log(response);
+  inquirer.prompt(questions).then((data) => {
+    console.log(data);
+    writeToFile(`README.md`, data);
   });
 }
 
