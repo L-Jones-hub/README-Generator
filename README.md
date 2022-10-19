@@ -1,2 +1,44 @@
-# README-Generator
-This project allows users to input information about a project into their command line and generate a README for their project.
+# Title
+  ## Description
+  Desctiption
+
+  -----
+
+  ## Table of Contents
+  [Installation]
+  [How to Use]
+  [License]
+  [Contributions]
+  [Testing]
+  [Questions]
+
+  -----
+
+  ### Installation
+  Install
+
+  -----
+
+  ### How to Use
+  Use
+
+  -----
+
+  ### License
+  MIT
+
+  -----
+
+  ### Contributions
+  Contribute
+
+  -----
+
+  ### Testing
+  Test it
+
+  -----
+
+  ### Questions
+  [GitHub](https://www.github.com/Lindsey)
+  [Email] lindsey@gmail.com
