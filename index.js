@@ -34,10 +34,9 @@ const questions = [
     name: `testing`,
   },
   {
-    type: `list`,
-    message: `Select a license:`,
+    type: `input`,
+    message: `What license are you using for your project?`,
     name: `license`,
-    choices: licenses,
   },
   {
     type: `input`,
@@ -55,7 +54,11 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((response) => {
+    console.log(response);
+  });
+}
 
 // Function call to initialize app
 init();
