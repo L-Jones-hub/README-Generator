@@ -22,7 +22,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== `None`) {
-    return `This project is under the `;
+    return `This project is under the following license: ${license}.`;
   } else {
     return `This project is not using a license.`;
   }
@@ -42,13 +42,14 @@ function generateMarkdown(data) {
 
   -----
 
-  ## Table of Contents
-  [Installation](#installation)
-  [How to Use](#usage)
-  [License](#license)
-  [Contributions](#contributions)
-  [Testing](#testing)
-  [Questions](#questions)
+  |## Table of Contents|
+  |----------------------------|
+  |[Installation](#installation)|
+  |[How to Use](#usage)|
+  |[License](#license)|
+  |[Contributions](#contributions)|
+  |[Testing](#testing)|
+  |[Questions](#questions)|
 
   -----
 
@@ -63,7 +64,7 @@ function generateMarkdown(data) {
   -----
 
   ## License
-  ${data.license}
+  
   ${licenseLink}
   ${licenseDescription}
 
@@ -80,8 +81,10 @@ function generateMarkdown(data) {
   -----
 
   ## Questions
-  [GitHub](https://www.github.com/${data.github})
-  [Email] ${data.email}
+  |Contact Me|
+  |--------------------|
+  |[GitHub](https://www.github.com/${data.github})|
+  |${data.email}|
 `;
 }
 
