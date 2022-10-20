@@ -2,11 +2,11 @@
   ![MIT license badge](https://img.shields.io/badge/License-MIT-blueviolet)
 
   ## Description
-  asdf
+  Description
 
   -----
 
-  |## Table of Contents|
+  |Table of Contents|
   |----------------------------|
   |[Installation](#installation)|
   |[How to Use](#usage)|
@@ -18,34 +18,34 @@
   -----
 
   ## Installation
-  asdf
+  Install
 
   -----
 
   ## How to Use
-  asdf
+  Use
 
   -----
 
   ## License
-  
-  [MIT license](https://choosealicense.com/licenses/MIT)
-  This project is under the following license: MIT.
+    This project is under the following license: MIT.
+  Read about this license at [MIT license](https://choosealicense.com/licenses/).
+
 
   -----
 
   ## Contributions
-  asdf
+  Contribute
 
   -----
 
   ## Testing
-  asdf
+  Test
 
   -----
 
-  ## Questions
+  ## Questions?
   |Contact Me|
   |--------------------|
-  |[GitHub](https://www.github.com/asdf)|
-  |asdf|
+  |[GitHub](https://www.github.com/L-Jones-hub)|
+  |lindseyjones92@gmail.com|

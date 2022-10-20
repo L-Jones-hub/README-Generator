@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== `None`) {
-    return `[${license} license](https://choosealicense.com/licenses/${license})`;
+    return `[${license} license](https://choosealicense.com/licenses/)`;
   } else {
     return ``;
   }
@@ -42,7 +42,7 @@ function generateMarkdown(data) {
 
   -----
 
-  |## Table of Contents|
+  |Table of Contents|
   |----------------------------|
   |[Installation](#installation)|
   |[How to Use](#usage)|
@@ -64,9 +64,9 @@ function generateMarkdown(data) {
   -----
 
   ## License
-  
-  ${licenseLink}
-  ${licenseDescription}
+    ${licenseDescription}
+  Read about this license at ${licenseLink}.
+
 
   -----
 
@@ -80,7 +80,7 @@ function generateMarkdown(data) {
 
   -----
 
-  ## Questions
+  ## Questions?
   |Contact Me|
   |--------------------|
   |[GitHub](https://www.github.com/${data.github})|
