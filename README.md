@@ -6,13 +6,11 @@ This project allows users to input information about a project into their comman
 
 ---
 
-| Table of Contents               |
-| ------------------------------- |
-| [How to Use](#usage)            |
-| [License](#license)             |
-| [Contributions](#contributions) |
-| [Testing](#testing)             |
-| [Questions](#questions)         |
+| Table of Contents       |
+| ----------------------- |
+| [How to Use](#usage)    |
+| [License](#license)     |
+| [Questions](#questions) |
 
 ---
 
