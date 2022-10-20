@@ -1,51 +1,38 @@
-# Title
-  ![MIT license badge](https://img.shields.io/badge/License-MIT-blueviolet)
+# README.md Generator
 
-  ## Description
-  Description
+## Description
 
-  -----
+This project allows users to input information about a project into their command line and generate a README for their project.
 
-  |Table of Contents|
-  |----------------------------|
-  |[Installation](#installation)|
-  |[How to Use](#usage)|
-  |[License](#license)|
-  |[Contributions](#contributions)|
-  |[Testing](#testing)|
-  |[Questions](#questions)|
+---
 
-  -----
+| Table of Contents               |
+| ------------------------------- |
+| [How to Use](#usage)            |
+| [License](#license)             |
+| [Contributions](#contributions) |
+| [Testing](#testing)             |
+| [Questions](#questions)         |
 
-  ## Installation
-  Install
+---
 
-  -----
+## How to Use
 
-  ## How to Use
-  Use
+Watch [this video](link) to see a demonstration of how to use this README.md Generator.
 
-  -----
+---
 
-  ## License
+## License
+
     This project is under the following license: MIT.
-  Read about this license at [MIT license](https://choosealicense.com/licenses/).
 
+Read about this license at [MIT license](https://choosealicense.com/licenses/).
 
-  -----
+---
 
-  ## Contributions
-  Contribute
+## Questions?
 
-  -----
-
-  ## Testing
-  Test
-
-  -----
-
-  ## Questions?
-  |Contact Me|
-  |--------------------|
-  |[GitHub](https://www.github.com/L-Jones-hub)|
-  |lindseyjones92@gmail.com|
+| Contact Me                                   |
+| -------------------------------------------- |
+| [GitHub](https://www.github.com/L-Jones-hub) |
+| lindseyjones92@gmail.com                     |
