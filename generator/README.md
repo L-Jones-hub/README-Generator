@@ -2,7 +2,7 @@
   ![MIT license badge](https://img.shields.io/badge/License-MIT-blueviolet)
 
   ## Description
-  Description
+  My project is an app that does things.
 
   -----
 
@@ -18,12 +18,12 @@
   -----
 
   ## Installation
-  Install
+  Do these things to install my app.
 
   -----
 
   ## How to Use
-  Use
+  Use it by doing these things.
 
   -----
 
@@ -35,12 +35,12 @@
   -----
 
   ## Contributions
-  Contribute
+  Contribute!
 
   -----
 
   ## Testing
-  Test
+  Test away!
 
   -----
 

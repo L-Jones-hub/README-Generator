@@ -16,7 +16,7 @@ This project allows users to input information about a project into their comman
 
 ## How to Use
 
-Watch [this video](link) to see a demonstration of how to use this README.md Generator.
+Watch [this video](https://www.loom.com/share/a0f51eb93f844c328e3e3094aa133ba0) to see a demonstration of how to use this README.md Generator.
 
 ---
 
